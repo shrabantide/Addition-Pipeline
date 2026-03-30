@@ -1,5 +1,5 @@
-# test_app.py
-from app import add
+
+from app import a, b, add
 
 def test_addition():
-    assert add(5, 5) == 10
+    assert add(a, b) == 10
